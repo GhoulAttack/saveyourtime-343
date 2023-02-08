@@ -1,4 +1,3 @@
-import texttable
 import os
 
 scheduler_list = ['sjf_sched', 'srpt_sched', 'priority_sched', 'rr_sched', 'stride_sched']
