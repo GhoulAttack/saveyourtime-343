@@ -14,9 +14,6 @@ for scheduler in scheduler_list:
             './queuelab_solution ' + scheduler + ' workloads/' + workload + ' > This_is_instructor/' + scheduler + '_' + workload)
 
 for scheduler in scheduler_list:
-    Table = texttable.Texttable()
-    Table.set_cols_dtype(['t', 't', 't', 't', 't'])
-    Table.add_row(['workload', 'avg_turnaround_time', 'std_turnaround_time', 'avg_slowdown_time', 'std_slowdown_time'])
     error_flag = 0
     for workload in workload_list:
         with open('This_is_a_folder/' + scheduler + '_' + workload) as f:
