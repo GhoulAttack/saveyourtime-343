@@ -3,6 +3,7 @@ import os
 
 scheduler_list = ['fifo_sched', 'sjf_sched', 'srpt_sched', 'priority_sched', 'rr_sched', 'stride_sched']
 workload_list = os.listdir('workloads')
+os.mkdir('This_is_a_folder')
 for scheduler in scheduler_list:
     for workload in workload_list:
         os.system(
