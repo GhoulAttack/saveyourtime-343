@@ -10,4 +10,4 @@ put the .py file in your working directory and run in terminal(or in IDE)
 
 Check your results with your original terminal result!
 
-saveyourtimeagain will compare your result with the instructor's result
+saveyourtimeagain will compare your result with the instructor's result(this will not require texttable! you can just run this in Terminal)
