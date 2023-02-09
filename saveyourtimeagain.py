@@ -16,7 +16,7 @@ for scheduler in scheduler_list:
 for scheduler in scheduler_list:
     error_flag = 0
     for workload in workload_list:
-        with open('This_is_a_folder/' + scheduler + '_' + workload) as f:
+        with open('This_is_yours/' + scheduler + '_' + workload) as f:
             content = f.read()
         with open('This_is_instructor/' + scheduler + '_' + workload) as f:
             content_instructor = f.read()
